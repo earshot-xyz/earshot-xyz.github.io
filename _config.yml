@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title: EARSHOT
-description: ideas can be heard.
+description: ideas can be heard
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en_US
@@ -21,7 +21,7 @@ gems:
 
 # Site owner
 owner: Earshot srls
-  name: Giuseppe Silvi 
+  name:
   email: giuseppe@earshot.xyz
   twitter: giuseppesilvi
   google: 
