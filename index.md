@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-<!--title: "News"-->
+title: "News"
 image:
   feature: feature01.jpg
 ---
