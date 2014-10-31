@@ -1,7 +1,7 @@
 ---
-layout: archive
+layout: home
 permalink: /
-title: "News"
+<!--title: "News"-->
 image:
   feature: feature01.jpg
 ---
