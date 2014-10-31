@@ -2,7 +2,7 @@
 layout: article
 title: "Sample Post Style Guide"
 categories: articles
-modified: 2014-08-27T11:57:41-04:00
+modified: 2014-10-31
 tags: [sample]
 toc: true
 comments: true
