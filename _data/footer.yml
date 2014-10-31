@@ -1,7 +1,10 @@
 # Footer navigation links
 
-- title: EARSHOT srls
-  url:
+- title: HOME
+  url: /
 
-- title: FB
-  url:
+- title: GIUSEPPE SILVI
+  url: http://www.giuseppesilvi.com
+
+- title: ABOUT
+  url: /about/
