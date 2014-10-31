@@ -1,6 +1,11 @@
 # Site navigation links
 
-- title:
+- title: ABOUT
   url:
-  excerpt:
+  excerpt: hear about us
+  image:
+
+- title: S.T.ONE
+  url:
+  excerpt: tetrahedral loudspeaker
   image:
