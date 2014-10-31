@@ -1,11 +1,11 @@
 # Site navigation links
 
 - title: ABOUT
-  url:
+  url: /about/
   excerpt: "hear about us"
   image: ABOUT_400_250.png
 
 - title: S.T.ONE
-  url:
+  url: /stone/
   excerpt: "tetrahedral loudspeaker"
   image: STONE_400_250.png
