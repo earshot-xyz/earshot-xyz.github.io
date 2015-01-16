@@ -1,16 +1,21 @@
-# Skinny Bones Jekyll Starter
+# Documentation
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
+Compass is a Jekyll theme designed with something very specific in mind: to be a simple and elegant personal landing page that can be easily deployed to [GitHub Pages](https://pages.github.com/).
 
-I'm currently using a variation of it on my personal website [Made Mistakes](http://mademistakes.com) with some modifications. To learn more about how to use the theme and install it check out the [Skinny Bones demo](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
+## How to use Compass
 
-![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
+1. Start by [installing Bundler](http://bundler.io) `gem install bundler`
+2. [Fork the Compass repository](https://github.com/excentris/compass/fork)
+3. Then run `bundle install` to get [Jekyll](http://jekyllrb.com) and all the dependencies.
+4. Clone the repository you just forked: `git clone https://github.com/YOUR-USER/compass`
+5. Edit `_config.yml` as needed.
+6. Run the Jekyll server with `bundle exec jekyll serve`
+7. Go to `http://localhost:4000`
 
----
+## Deploy your site to GitHub Pages
 
-## Notable Features
+If you want to use Compass as your personal landing page you can deploy your site to GitHub Pages as a [User Page](https://help.github.com/articles/user-organization-and-project-pages/#user--organization-pages). To do so, when you are done modifying your clone, you should rename your repository to `username.github.io` where username is your username. When GitHub builds the page it will be made available at `https://username.github.io`.
 
-* Stylesheet built using Sass. *Requires Jekyll 2.x*
-* Data files for easier customization of the site navigation/footer and for supporting multiple authors.
-* Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
-* And more.
+If you are planning on using a custom domain to direct to your site, modify the CNAME file as described [here](https://help.github.com/articles/adding-a-cname-file-to-your-repository/).
+
+Check the [GitHub Pages Basics](https://help.github.com/categories/github-pages-basics/) for more information.
