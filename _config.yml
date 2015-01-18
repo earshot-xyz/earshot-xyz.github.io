@@ -1,6 +1,6 @@
 # general configuration
 url: http://earshot.xyz
-baseurl: ''
+baseurl: 'http://earshot.xyz'
 
 # compass configuration
 compass:
