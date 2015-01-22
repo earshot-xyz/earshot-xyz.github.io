@@ -54,6 +54,11 @@ since it must be aligned with the content */
 	color: $text-color;
 }
 
+.description-list {
+	padding: 0;
+	list-style-type: none;
+}
+
 /*** logo ***/
 .logo-container {
 	text-align: center;
