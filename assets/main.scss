@@ -55,7 +55,8 @@ since it must be aligned with the content */
 }
 
 .description-list {
-	padding: 0 0 0 1em;
+	padding: 0;
+	margin-bottom: .5em;
 	list-style-type: none;
 }
 
