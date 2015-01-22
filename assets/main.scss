@@ -56,9 +56,13 @@ since it must be aligned with the content */
 
 .description-list {
 	padding: 0;
-	margin-bottom: 3em;
 	list-style-type: none;
 }
+
+.description-item {
+	margin-bottom: 2em;
+}
+
 
 /*** logo ***/
 .logo-container {
