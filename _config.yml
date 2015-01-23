@@ -2,8 +2,8 @@
 url: http://earshot.xyz
 baseurl: ''
 
-# compass configuration
-compass:
+# earshot configuration
+earshot:
   # an avatar or logo (optional)
   logo: "/images/ear.png"
   touch: "/images/ear_bg_I.png"
