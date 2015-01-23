@@ -1,8 +1,20 @@
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="author" content="{{ site.compass.author }}">
+  <meta name="description" content="{{ site.compass.tagline }}"/>
+
+  <meta property="og:title" content="{{ site.compass.tagline }}"/>
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ site.compass.logo }}"/>
+  <meta property="og:description" content="{{ site.compass.description }}"/>
+  <meta property="og:site_name" content="{{ site.compass.author }}">
+
   <!-- <title>{{ site.compass.author }} &#8226; {{ site.compass.tagline | strip_html }}</title> -->
-  <title>{{ site.compass.author }} &#128066; {{ site.compass.titlepage | strip_html }}</title>
+  <!-- <title>{{ site.compass.author }} &#128066; {{ site.compass.titlepage | strip_html }}</title> -->
+  <title>&#128066;SHOT</title>
 
   <link rel="apple-touch-icon" href="{{ site.compass.logo }}"/>
   <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="{{ site.url }}/favicon.ico" />
@@ -13,15 +25,6 @@
   <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-
-  <meta name="author" content="{{ site.compass.author }}">
-  <meta name="description" content="{{ site.compass.tagline }}"/>
-
-  <meta property="og:title" content="{{ site.compass.tagline }}"/>
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ site.compass.logo }}"/>
-  <meta property="og:description" content="{{ site.compass.description }}"/>
-  <meta property="og:site_name" content="{{ site.compass.tagline }}">
 
   {% if site.compass.include_analytics %}
   {% include analytics.html %}
