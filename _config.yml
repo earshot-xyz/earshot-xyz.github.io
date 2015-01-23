@@ -8,9 +8,10 @@ compass:
   logo: "/images/ear.png"
   # author will appear under the avatar (optional)
   author: "earshot"
+  # titlepage (optional)
+  titlepage: "hearing distance"
   # tagline will appear under the title (optional)
-  tagline: "hearing distance"
-  #tagline: "the range or distance over which one can hear or be heard"
+  tagline: "the range or distance over which one can hear or be heard"
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true
