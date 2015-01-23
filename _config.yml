@@ -6,6 +6,7 @@ baseurl: ''
 compass:
   # an avatar or logo (optional)
   logo: "/images/ear.png"
+  touch: "/images/ear_bg_I.png"
   # author will appear under the avatar (optional)
   author: "earshot"
   # titlepage (optional)
