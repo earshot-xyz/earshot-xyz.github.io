@@ -34,3 +34,7 @@ relative_permalinks: true
 analytics:
   # Add tracking code in _includes/_google-analytics.html
   google: true
+  
+languages: ["it", "en"]
+
+exclude_from_localizations: ["images", "asset"]

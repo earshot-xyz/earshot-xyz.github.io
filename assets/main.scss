@@ -18,7 +18,8 @@ main {
 
 /*** wrapper div for both header and main ***/
 .wrapper {
-	margin-top: 7%;
+	margin-top: 6%;
+	margin-bottom: 6%;
 }
 
 /*** anchor tags ***/
@@ -148,18 +149,18 @@ footer {
 }
 
 /* All other devices (768px and up) */
-@media (min-width: 768px) {
+@media (min-width: 800px) {
 	/* past 768px the layout is changed and the wrapper has a fixed width of 680px
 	to accomodate both the header column and the content column */
 	.wrapper {
-		width: 680px;
+		width: 720px;
 	}
 
 	/* the header column stays left and has a dynamic width with all contents
 	aligned right */
 	header {
 		float: left;
-		width: 46%;
+		width: 40%;
 		text-align: right;
 	}
 
@@ -171,8 +172,8 @@ footer {
 	}
 
 	main {
-		width: 46%;
-		margin-left: 54%;
+		width: 55%;
+		margin-left: 60%;
 		padding: 0;
 	}
 }
