@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "it-IT"
 title                    : "EARSHOT"
 title_separator          : "-"
 name                     : "EarShot"
@@ -61,9 +61,9 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Giuseppe Silvi"
-  avatar           : "bio-photo.jpg"
-  bio              : "Electroacoustic Musician"
+  name             : "EarShot"
+  avatar           : "ear.png"
+  bio              : "the range or distance over which one can hear or be heard"
   location         : "Rome, Italy"
   email            : "gs@earshot.xyz"
   uri              :
@@ -73,7 +73,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : grammaton
+  github           : earshot-xyz
   google_plus      :
   keybase          :
   instagram        :
@@ -84,7 +84,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : giuseppesilvi
+  twitter          : earshotxyz
   vine             :
   weibo            :
   xing             :
