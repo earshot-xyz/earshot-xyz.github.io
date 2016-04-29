@@ -1,27 +1,14 @@
 ---
-layout: base
+layout: archive
+author_profile: true
 ---
-<div class="wrapper">
-    <header>
-        {% if site.earshot.logo %}
-        <div class="logo-container">
-          <a class="logo" href="{{ site.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.earshot.logo }}')"></a>
-        </div>
-        {% endif %}
 
-        {% if site.earshot.author %}
-        <div class="author-container"><h1>{{ site.earshot.author }}</h1></div>
-        {% endif %}
+{% include base_path %}
 
-        {% if site.earshot.tagline %}
-        <div class="tagline-container"><p>{{ site.earshot.tagline }}</p></div>
-        {% endif %}
-    </header>
-    <main>
-      {% if site.earshot.include_content %}
-      <div class="content">
-        {% include content.html %}
-      </div>
-      {% endif %}
-    </main>
-</div>
+<h3 class="archive__subtitle">Recent Posts</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
