@@ -1,32 +1,21 @@
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="content-type" content="text/html">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% include base_path %}
 
-  <meta name="author" content="{{ site.earshot.author }}">
-  <meta name="description" content="{{ site.earshot.tagline }}"/>
+<meta charset="utf-8">
 
-  <meta property="og:title" content="{{ site.earshot.tagline }}"/>
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ site.earshot.logo }}"/>
-  <meta property="og:description" content="{{ site.earshot.description }}"/>
-  <meta property="og:site_name" content="{{ site.earshot.author }}">
+{% include seo.html %}
 
-  <!-- <title>{{ site.earshot.author }} &#8226; {{ site.earshot.tagline | strip_html }}</title> -->
-  <!-- <title>{{ site.earshot.author }} &#128066; {{ site.earshot.titlepage | strip_html }}</title> -->
-  <title>EARSHOT</title>
+<link href="{{ base_path }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
-  <link rel="apple-touch-icon" href="{{ site.earshot.touch}}"/>
-  <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="{{ site.url }}/favicon.ico" />
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/normalize.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
 
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<!-- For all browsers -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
-  {% if site.earshot.include_analytics %}
-  {% include analytics.html %}
-  {% endif %}
-</head>
+<meta http-equiv="cleartype" content="on">
