@@ -1,15 +1,17 @@
 ---
 layout: page
-title: TETRAREC
+title: "TETRAREC"
+subtitle: "Space Tetrahedral Recording Technique"
+description: "Suono, forma e forma sonora."
 permalink: /tetrarec/
 ---
 
-## Spherical Tetrahedral ONE
+**TETRAREC** è una tecnica di microfonazione spaziata di quattro microfoni posti ai vertici di un tetraedro che avvolge l'oggetto sonoro da registrare.
 
-### punti di ascolto elettroacustici omnidirezionali
+È stata sviluppata partendo dalla registrazione tetraedrica **A-Format** di Michael Gerzon, ribaltandone il principio di funzionamento. Il suono non attraversa un gruppo di capsule semi-coincidenti bensì raggiunge i quattro microfoni che lo circondano con tempi e intensità diverse, in conformità con i moti di propagazione tipici dell'oggetto che si sta registrando.
 
-*S.T.ONE* è un altoparlante tetraedrico ovvero di quattro facce triangolari e permette l'irradiazione del suono in tutte le direzioni dello spazio. Si può dire quindi che è una sorgente omini-direzionale così come gran parte delle sorgenti naturali. Al pari degli strumenti musicali tradizionali, S.T.ONE offre le sue peculiarità alla composizione musicale come elementi strutturali.
+![tetrarec 01]({{ site.url }}/images/photos/ED01_tetrarec_lucier13degrees_CG_T.jpeg)
+<figcaption>Elena D'Alò, Abbey Rocchi Studios, 25 Settembre 2014.</figcaption>
 
-Uno strumento versatile, utilizzabile in un impianto di carattere installativo quanto esecutivo, S.T.ONE ridefinisce il rapporto tra diffusore elettro acustico e strumento musicale tradizionale, in un connubio di immagini sonore equilibrate e multi-direzionali.
-
-galleria fotografica
+![la forma sonora del pianoforte](http://giuseppesilvi.com/images/20150826/IMG_2067_panlo.png)
+<figcaption>Accademia degli Sfaccendati, Palazzo Sforza-Cesarini, Genzano Romano (RM), 2015 August, 26</figcaption>
