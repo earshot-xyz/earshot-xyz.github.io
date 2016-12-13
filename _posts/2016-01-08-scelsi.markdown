@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Quattro S.T.ONE @ Accademia Filarmonica Romana"
+title:  "S.T.ONE @ Fondazione Scelsi"
 date:   2016-11-24 23:23:23 +0100
 categories: stone concert
 ---

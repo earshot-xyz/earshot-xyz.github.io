@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "ABOUT"
-subtitle: ""
+subtitle:
 description: "the range or distance over which one can hear or be heard"
-
 permalink: /about/
 ---
 
