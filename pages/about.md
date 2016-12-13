@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "ABOUT"
-subtitle: "*the range or distance over which one can hear or be heard*"
-description: "Ricerca e Produzione Musicale Elettraocustica"
+subtitle: ""
+description: "the range or distance over which one can hear or be heard"
 
 permalink: /about/
 ---
