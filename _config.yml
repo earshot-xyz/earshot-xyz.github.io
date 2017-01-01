@@ -15,10 +15,6 @@ github_username:  earshot-xyz
 
 google_analytics: UA-59367601-1
 
-comments:
-  disqus:
-    shortname            : "mmistakes-dev"
-
 # Build settings
 markdown: kramdown
 gems:
