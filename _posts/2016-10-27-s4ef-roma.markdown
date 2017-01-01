@@ -1,6 +1,6 @@
 ---
 layout: post
 title:  "S4EF - Alto Sax, Windback & S.T.ONE @ EMUFest, Roma"
-date:   2016-11-24 23:23:23 +0100
+date:   2016-10-27 23:23:23 +0100
 categories: stone concert
 ---
